@@ -32,7 +32,6 @@ body {
 h1 {
   color: #fff;
   text-align: center;
-  display: block;
   margin: 40px auto;
   text-shadow: 1px 1px 1px rgb(104, 105, 98);
 }
@@ -154,4 +153,46 @@ input {
   margin: 1rem;
   flex: none;
   background-color: #cdd1da;
+}
+
+@media (max-width: 760px) {
+  .wrapper {
+    padding: 10px 20px;
+  }
+}
+@media (max-width: 670px) {
+  #list {
+    margin: 0px;
+  }
+}
+@media (max-width: 450px) {
+  li {
+    margin: 10px;
+  }
+  .delete-btn {
+    margin: 0.5rem 0 0.5rem 0.5rem;
+  }
+  h1 {
+    margin: 30px auto;
+    font-size: 28px;
+  }
+  input {
+    font-size: 1rem;
+    line-height: 1.5;
+    width: 20rem;
+  }
+}
+@media (max-width: 400px) {
+  li {
+    margin: 15px 0;
+  }
+  span {
+    font-size: 18px;
+  }
+  h1 {
+    font-size: 25px;
+  }
+  label {
+    padding: 0 0 0 60px;
+  }
 }
